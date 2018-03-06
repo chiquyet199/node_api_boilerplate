@@ -1,0 +1,20 @@
+{
+  "name": "node-api-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boiler plate for RESTFUL api using node",
+  "main": "index.js",
+  "repository": "https://github.com/chiquyet199/node_api_boilerplate.git",
+  "author": "cqpro",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
